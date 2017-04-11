@@ -16,13 +16,16 @@ STRINGLIB_API int getWhiteSpaceCount(wchar_t* pszData)
 {
     int iCount = 0;
 
-    int i = 0;
-    while (pszData[i] != NULL)
+    if (pszData)
     {
-        if (isspace(pszData[i]))
-            iCount++;
+        int i = 0;
+        while (pszData[i] != NULL)
+        {
+            if (isspace(pszData[i]))
+                iCount++;
 
-        i++;
+            i++;
+        }
     }
 
     return iCount;
