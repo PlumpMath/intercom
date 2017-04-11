@@ -13,7 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{BBB8F592-B9B6-46F8-9B93-4D104835285D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>MythDLL</RootNamespace>
+    <RootNamespace>MathLib</RootNamespace>
     <ProjectName>MathLib</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
