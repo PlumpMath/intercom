@@ -16,7 +16,7 @@ namespace StringLibNET
         public static extern int getWhiteSpaceCount(String s);
 
         [DllImport("StringLib.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Unicode)]
-        public static extern void removeSpaces(String s);
+        public static extern void removeSpaces(StringBuilder s);
 
         [DllImport("StringLib.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Unicode)]
         public static extern void trim(StringBuilder s);

@@ -54,6 +54,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestGetWhiteSpaces.cs" />
     <Compile Include="TestTrim.cs" />
+    <Compile Include="TestRemoveSpaces.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\StringLibNET\StringLibNET.csproj">
