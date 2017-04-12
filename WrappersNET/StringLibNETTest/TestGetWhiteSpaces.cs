@@ -9,7 +9,7 @@ namespace StringLibNETTest
     {
         [TestMethod]
         [TestCategory("GetWhiteSpaces")]
-        [TestCategory("Basic")]
+        [TestCategory("StringLibNET")]
         public void TestGetWhiteSpaces1()
         {
             int iCount = StringLib.getWhiteSpaceCount("");
@@ -18,7 +18,7 @@ namespace StringLibNETTest
 
         [TestMethod]
         [TestCategory("GetWhiteSpaces")]
-        [TestCategory("Basic")]
+        [TestCategory("StringLibNET")]
         public void TestGetWhiteSpaces2()
         {
             int iCount = StringLib.getWhiteSpaceCount(null);
@@ -27,7 +27,7 @@ namespace StringLibNETTest
 
         [TestMethod]
         [TestCategory("GetWhiteSpaces")]
-        [TestCategory("Basic")]
+        [TestCategory("StringLibNET")]
         public void TestGetWhiteSpaces3()
         {
             int iCount = StringLib.getWhiteSpaceCount("a c vcvvcvcv");
@@ -36,7 +36,7 @@ namespace StringLibNETTest
 
         [TestMethod]
         [TestCategory("GetWhiteSpaces")]
-        [TestCategory("Basic")]
+        [TestCategory("StringLibNET")]
         public void TestGetWhiteSpaces4()
         {
             int iCount = StringLib.getWhiteSpaceCount("a c vcvvcvcv");
@@ -45,7 +45,7 @@ namespace StringLibNETTest
 
         [TestMethod]
         [TestCategory("GetWhiteSpaces")]
-        [TestCategory("Basic")]
+        [TestCategory("StringLibNET")]
         public void TestGetWhiteSpaces5()
         {
             int iCount = StringLib.getWhiteSpaceCount("   a c vcvvcvcv  ");

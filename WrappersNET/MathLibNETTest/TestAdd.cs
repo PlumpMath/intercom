@@ -9,7 +9,7 @@ namespace MathLibNETTest
     {
         [TestMethod]
         [TestCategory("Add")]
-        [TestCategory("Basic")]
+        [TestCategory("MathLib")]
         public void TestAddition1()
         {
             double iVal = MathLibNET.Math.Add(1, 2);
@@ -18,7 +18,7 @@ namespace MathLibNETTest
 
         [TestMethod]
         [TestCategory("Add")]
-        [TestCategory("Basic")]
+        [TestCategory("MathLib")]
         public void TestAddition2()
         {
             double iVal = MathLibNET.Math.Add(-1, -2);
@@ -27,7 +27,7 @@ namespace MathLibNETTest
 
         [TestMethod]
         [TestCategory("Add")]
-        [TestCategory("Basic")]
+        [TestCategory("MathLib")]
         public void TestAddition3()
         {
             double iVal = MathLibNET.Math.Add(-1, 1);
@@ -36,7 +36,7 @@ namespace MathLibNETTest
 
         [TestMethod]
         [TestCategory("Add")]
-        [TestCategory("Basic")]
+        [TestCategory("MathLib")]
         public void TestAddition4()
         {
             double iVal = MathLibNET.Math.Add(0, 0);
@@ -45,7 +45,7 @@ namespace MathLibNETTest
 
         [TestMethod]
         [TestCategory("Add")]
-        [TestCategory("Basic")]
+        [TestCategory("MathLib")]
         public void TestAddition5()
         {
             double iVal = MathLibNET.Math.Add(-1, -2);

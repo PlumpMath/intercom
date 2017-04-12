@@ -8,7 +8,7 @@ namespace MathLibNETTest
     {
         [TestMethod]
         [TestCategory("Sub")]
-        [TestCategory("Basic")]
+        [TestCategory("MathLib")]
         public void TestSubtraction1()
         {
             double iVal = MathLibNET.Math.Sub(-1, -2);
@@ -17,7 +17,7 @@ namespace MathLibNETTest
 
         [TestMethod]
         [TestCategory("Sub")]
-        [TestCategory("Basic")]
+        [TestCategory("MathLib")]
         public void TestSubtraction2()
         {
             double iVal = MathLibNET.Math.Sub(-1, -1);
@@ -26,7 +26,7 @@ namespace MathLibNETTest
 
         [TestMethod]
         [TestCategory("Sub")]
-        [TestCategory("Basic")]
+        [TestCategory("MathLib")]
         public void TestSubtraction3()
         {
             double iVal = MathLibNET.Math.Sub(0, 0);
@@ -35,7 +35,7 @@ namespace MathLibNETTest
 
         [TestMethod]
         [TestCategory("Sub")]
-        [TestCategory("Basic")]
+        [TestCategory("MathLib")]
         public void TestSubtraction4()
         {
             double iVal = MathLibNET.Math.Sub(-1, -2);
@@ -44,7 +44,7 @@ namespace MathLibNETTest
 
         [TestMethod]
         [TestCategory("Sub")]
-        [TestCategory("Basic")]
+        [TestCategory("MathLib")]
         public void TestSubtraction5()
         {
             double iVal = MathLibNET.Math.Sub(10, 5);

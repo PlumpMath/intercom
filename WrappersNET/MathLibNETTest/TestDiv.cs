@@ -8,7 +8,7 @@ namespace MathLibNETTest
     {
         [TestMethod]
         [TestCategory("Div")]
-        [TestCategory("Basic")]
+        [TestCategory("MathLib")]
         public void TestDivision1()
         {
             double val = MathLibNET.Math.Div(10, 5);
@@ -17,7 +17,7 @@ namespace MathLibNETTest
 
         [TestMethod]
         [TestCategory("Div")]
-        [TestCategory("Basic")]
+        [TestCategory("MathLib")]
         public void TestDivision2()
         {
             double val = MathLibNET.Math.Div(5, 10);
@@ -26,7 +26,7 @@ namespace MathLibNETTest
 
         [TestMethod]
         [TestCategory("Div")]
-        [TestCategory("Basic")]
+        [TestCategory("MathLib")]
         public void TestDivision3()
         {
             double val = MathLibNET.Math.Div(5, 3);

@@ -10,7 +10,7 @@ namespace StringLibNETTest
     {
         [TestMethod]
         [TestCategory("TestRemoveSpaces")]
-        [TestCategory("Basic")]
+        [TestCategory("StringLibNET")]
         public void TestRemoveSpaces1()
         {
             StringBuilder s = null;
@@ -20,7 +20,7 @@ namespace StringLibNETTest
 
         [TestMethod]
         [TestCategory("TestRemoveSpaces")]
-        [TestCategory("Basic")]
+        [TestCategory("StringLibNET")]
         public void TestRemoveSpaces2()
         {
             StringBuilder s = new StringBuilder("");
@@ -30,7 +30,7 @@ namespace StringLibNETTest
 
         [TestMethod]
         [TestCategory("TestRemoveSpaces")]
-        [TestCategory("Basic")]
+        [TestCategory("StringLibNET")]
         public void TestRemoveSpaces3()
         {
             StringBuilder s = new StringBuilder("  a h    o j   ");

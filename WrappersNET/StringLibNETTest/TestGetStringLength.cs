@@ -9,7 +9,7 @@ namespace StringLibNETTest
     {
         [TestMethod]
         [TestCategory("GetStringLength")]
-        [TestCategory("Basic")]
+        [TestCategory("StringLibNET")]
         public void TestGetStringLength1()
         {
             int iLength = StringLib.getStringLength("");
@@ -18,7 +18,7 @@ namespace StringLibNETTest
 
         [TestMethod]
         [TestCategory("GetStringLength")]
-        [TestCategory("Basic")]
+        [TestCategory("StringLibNET")]
         public void TestGetStringLength2()
         {
             int iLength = StringLib.getStringLength(null);
@@ -27,7 +27,7 @@ namespace StringLibNETTest
 
         [TestMethod]
         [TestCategory("GetStringLength")]
-        [TestCategory("Basic")]
+        [TestCategory("StringLibNET")]
         public void TestGetStringLength3()
         {
             int iLength = StringLib.getStringLength("a");
@@ -36,7 +36,7 @@ namespace StringLibNETTest
 
         [TestMethod]
         [TestCategory("GetStringLength")]
-        [TestCategory("Basic")]
+        [TestCategory("StringLibNET")]
         public void TestGetStringLength4()
         {
             int iLength = StringLib.getStringLength("abcdes gh");

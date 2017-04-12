@@ -10,7 +10,7 @@ namespace StringLibNETTest
     {
         [TestMethod]
         [TestCategory("Trim")]
-        [TestCategory("Basic")]
+        [TestCategory("StringLibNET")]
         public void TestTrim1()
         {
             StringBuilder s = null;
@@ -20,7 +20,7 @@ namespace StringLibNETTest
 
         [TestMethod]
         [TestCategory("Trim")]
-        [TestCategory("Basic")]
+        [TestCategory("StringLibNET")]
         public void TestTrim2()
         {
             StringBuilder s = new StringBuilder("           "); 
@@ -30,7 +30,7 @@ namespace StringLibNETTest
 
         [TestMethod]
         [TestCategory("Trim")]
-        [TestCategory("Basic")]
+        [TestCategory("StringLibNET")]
         public void TestTrim3()
         {
             StringBuilder s = new StringBuilder("     a      ");
@@ -40,22 +40,22 @@ namespace StringLibNETTest
 
         [TestMethod]
         [TestCategory("Trim")]
-        [TestCategory("Basic")]
+        [TestCategory("StringLibNET")]
         public void TestTrim4()
         {
             StringBuilder s = new StringBuilder("     ahoj      ");
             StringLib.trim(s);
-            Assert.AreEqual(s.ToString(), "a");
+            Assert.AreEqual(s.ToString(), "ahoj");
         }
 
         [TestMethod]
         [TestCategory("Trim")]
-        [TestCategory("Basic")]
+        [TestCategory("StringLibNET")]
         public void TestTrim5()
         {
             StringBuilder s = new StringBuilder("     a  h  o    j      ");
             StringLib.trim(s);
-            Assert.AreEqual(s.ToString(), "ahoj");
+            Assert.AreEqual(s.ToString(), "a  h  o    j");
         }
     }
 }

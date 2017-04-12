@@ -79,7 +79,7 @@ EXTERN_API STRINGLIB_API void trimRight(wchar_t* pszData)
         int i = getStringLength(pszData) - 1;
 
         while ((i >= 0) && (isspace(pszData[i])))
-            pszData[i++] = NULL;
+            pszData[i--] = NULL;
     }
 }
 

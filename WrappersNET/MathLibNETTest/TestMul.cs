@@ -8,7 +8,7 @@ namespace MathLibNETTest
     {
         [TestMethod]
         [TestCategory("Mul")]
-        [TestCategory("Basic")]
+        [TestCategory("MathLib")]
         public void TestMultiplication1()
         {
             double val = MathLibNET.Math.Mul(1, 2);
@@ -17,7 +17,7 @@ namespace MathLibNETTest
 
         [TestMethod]
         [TestCategory("Mul")]
-        [TestCategory("Basic")]
+        [TestCategory("MathLib")]
         public void TestMultiplication2()
         {
             double val = MathLibNET.Math.Mul(2, 5);
@@ -26,7 +26,7 @@ namespace MathLibNETTest
 
         [TestMethod]
         [TestCategory("Mul")]
-        [TestCategory("Basic")]
+        [TestCategory("MathLib")]
         public void TestMultiplication3()
         {
             double val = MathLibNET.Math.Mul(-2, 5);
@@ -35,7 +35,7 @@ namespace MathLibNETTest
 
         [TestMethod]
         [TestCategory("Mul")]
-        [TestCategory("Basic")]
+        [TestCategory("MathLib")]
         public void TestMultiplication4()
         {
             double val = MathLibNET.Math.Mul(-2, -5);
@@ -44,7 +44,7 @@ namespace MathLibNETTest
 
         [TestMethod]
         [TestCategory("Mul")]
-        [TestCategory("Basic")]
+        [TestCategory("MathLib")]
         public void TestMultiplication5()
         {
             double val = MathLibNET.Math.Mul(0, -5);
@@ -53,7 +53,7 @@ namespace MathLibNETTest
 
         [TestMethod]
         [TestCategory("Mul")]
-        [TestCategory("Basic")]
+        [TestCategory("MathLib")]
         public void TestMultiplication6()
         {
             double val = MathLibNET.Math.Mul(5, 0);
@@ -62,7 +62,7 @@ namespace MathLibNETTest
 
         [TestMethod]
         [TestCategory("Mul")]
-        [TestCategory("Basic")]
+        [TestCategory("MathLib")]
         public void TestMultiplication7()
         {
             double val = MathLibNET.Math.Mul(0, 0);
