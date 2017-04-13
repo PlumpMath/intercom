@@ -37,6 +37,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathLib", "Native\MathLib\M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringLibNETTest", "WrappersNET\StringLibNETTest\StringLibNETTest.csproj", "{E30A2B98-8B6A-4A36-BD9B-0355823815CB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathLibTest", "Native\MathLibTest\MathLibTest.vcxproj", "{100E12EA-66E1-4C1A-BC66-3CC5F725CCB1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BBB8F592-B9B6-46F8-9B93-4D104835285D} = {BBB8F592-B9B6-46F8-9B93-4D104835285D}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +122,16 @@ Global
 		{E30A2B98-8B6A-4A36-BD9B-0355823815CB}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{E30A2B98-8B6A-4A36-BD9B-0355823815CB}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{E30A2B98-8B6A-4A36-BD9B-0355823815CB}.Release|Win32.ActiveCfg = Release|Any CPU
+		{100E12EA-66E1-4C1A-BC66-3CC5F725CCB1}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{100E12EA-66E1-4C1A-BC66-3CC5F725CCB1}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{100E12EA-66E1-4C1A-BC66-3CC5F725CCB1}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{100E12EA-66E1-4C1A-BC66-3CC5F725CCB1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{100E12EA-66E1-4C1A-BC66-3CC5F725CCB1}.Debug|Win32.Build.0 = Debug|Win32
+		{100E12EA-66E1-4C1A-BC66-3CC5F725CCB1}.Release|Any CPU.ActiveCfg = Release|Win32
+		{100E12EA-66E1-4C1A-BC66-3CC5F725CCB1}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{100E12EA-66E1-4C1A-BC66-3CC5F725CCB1}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{100E12EA-66E1-4C1A-BC66-3CC5F725CCB1}.Release|Win32.ActiveCfg = Release|Win32
+		{100E12EA-66E1-4C1A-BC66-3CC5F725CCB1}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -133,5 +148,6 @@ Global
 		{441C6CCF-F28E-4DED-BA67-86EB47A700DB} = {03636F8F-8938-4BFD-950F-485B2F5AD0D0}
 		{BBB8F592-B9B6-46F8-9B93-4D104835285D} = {F9A47884-3064-464A-ACD3-483558ECA798}
 		{E30A2B98-8B6A-4A36-BD9B-0355823815CB} = {03636F8F-8938-4BFD-950F-485B2F5AD0D0}
+		{100E12EA-66E1-4C1A-BC66-3CC5F725CCB1} = {974AEFDB-B2F6-477D-88F9-5BB8BC4B6BD4}
 	EndGlobalSection
 EndGlobal
