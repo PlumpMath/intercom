@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("MathNET")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("NCR Corporation")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("MathNET")]
-[assembly: AssemblyCopyright("Copyright © NCR Corporation 2017")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
