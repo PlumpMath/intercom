@@ -6,7 +6,7 @@
 
 #define EXTERN_API extern "C"
 
-namespace Math
+namespace MathLib
 {
     EXTERN_API MYTHDLL_API double Add(double a, double b);
     EXTERN_API MYTHDLL_API double Sub(double a, double b);

@@ -16,7 +16,7 @@ namespace MathLibTest
         END_TEST_METHOD_ATTRIBUTE()
         TEST_METHOD(TestDiv1)
         {
-            double d = Math::Div(0.0, 5);
+            double d = MathLib::Div(0.0, 5);
             Assert::AreEqual(0.0, d);
         }
 
@@ -26,7 +26,7 @@ namespace MathLibTest
         END_TEST_METHOD_ATTRIBUTE()
         TEST_METHOD(TestDiv2)
         {
-            double d = Math::Div(10.0, 2.0);
+            double d = MathLib::Div(10.0, 2.0);
             Assert::AreEqual(5.0, d);
         }
 
@@ -36,7 +36,7 @@ namespace MathLibTest
         END_TEST_METHOD_ATTRIBUTE()
         TEST_METHOD(TestDiv3)
         {
-            double d = Math::Div(-10.0, 2.0);
+            double d = MathLib::Div(-10.0, 2.0);
             Assert::AreEqual(-5.0, d);
         }
 
@@ -46,7 +46,7 @@ namespace MathLibTest
         END_TEST_METHOD_ATTRIBUTE()
         TEST_METHOD(TestDiv4)
         {
-            double d = Math::Div(-10.0, -2.0);
+            double d = MathLib::Div(-10.0, -2.0);
             Assert::AreEqual(5.0, d);
         }
 

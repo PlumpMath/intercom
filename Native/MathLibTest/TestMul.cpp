@@ -16,7 +16,7 @@ namespace MathLibTest
         END_TEST_METHOD_ATTRIBUTE()
         TEST_METHOD(TestMul1)
         {
-            double d = Math::Mul(0, 10);
+            double d = MathLib::Mul(0, 10);
             Assert::AreEqual(0.0, d);
         }
 
@@ -26,7 +26,7 @@ namespace MathLibTest
         END_TEST_METHOD_ATTRIBUTE()
         TEST_METHOD(TestMul2)
         {
-            double d = Math::Mul(10, 0);
+            double d = MathLib::Mul(10, 0);
             Assert::AreEqual(0.0, d);
         }
 
@@ -36,7 +36,7 @@ namespace MathLibTest
         END_TEST_METHOD_ATTRIBUTE()
         TEST_METHOD(TestMul3)
         {
-            double d = Math::Mul(-5, -2);
+            double d = MathLib::Mul(-5, -2);
             Assert::AreEqual(10.0, d);
         }
     };

@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include "MathLib.h"
 
-namespace Math
+namespace MathLib
 {
     MYTHDLL_API double Add(double a, double b)
     {
